@@ -1,0 +1,19 @@
+html, body, div, img {
+	margin: 0;
+	padding: 0;
+}
+
+div, img {
+	display: block;
+}
+
+@mixin defaultStyle($color: #000, $fontSize: 16px, $lineHeight: 1.2em, $fontFamily: "sans-serif") {
+	color: $color;
+	font-size: $fontSize;
+	line-height: $lineHeight;
+	@if ($fontFamily == "sans-serif") {
+		font-family: Arial, "Helvetica Neue", Helvetica, Geneva, Tahoma, sans-serif;
+	} @else if ($fontFamily == "sans-serif") {
+		font-family: "Times New Roman", Georgia, Times, serif;
+	}
+}

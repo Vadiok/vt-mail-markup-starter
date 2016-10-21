@@ -1,0 +1,19 @@
+{
+	"name": "vt-mail-markup-starter",
+	"version": "1.0.0",
+	"description": "Mail markup starter kit. Includes Pug & SCSS compiling. Generates inline styles in result html",
+	"main": "gulpfile.js",
+	"author": "Vlad Tokarev",
+	"license": "GPLv3",
+	"devDependencies": {
+		"del": "*",
+		"gulp": "*",
+		"gulp-autoprefixer": "*",
+		"gulp-clean-css": "*",
+		"gulp-if": "*",
+		"gulp-inline-css": "*",
+		"gulp-pug": "*",
+		"gulp-rename": "*",
+		"gulp-sass": "*"
+	}
+}

@@ -1,0 +1,13 @@
+doctype html
+html(lang="ru")
+	block vars
+		- var mailName = "default"
+		- var mailTitle = "Email"
+		- var styleFileName = "style"
+	head
+		meta(charset='UTF-8')
+		title #{typeof mailTitle !== "undefined" ? mailTitle : "Email"}
+		link(rel="stylesheet", href="./../../dist/" + (mailName || "default") + "/" + (styleFileName || "style") + ".css")
+	body
+		.container
+			block container

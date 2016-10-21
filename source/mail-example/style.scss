@@ -1,0 +1,28 @@
+@import "./../extends/reset";
+
+.container {
+	@include defaultStyle(#444);
+	width: 850px;
+	margin: 0 auto;
+	background: #fff;
+
+	.header {
+		background: #ddd;
+		.wrapper {
+			width: 300px;
+			margin: 20px auto;
+		}
+	}
+
+	.content {
+		.wrapper {
+		}
+	}
+
+	.footer {
+		background: #ddd;
+		.wrapper {
+		}
+	}
+
+}
